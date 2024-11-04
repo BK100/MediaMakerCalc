@@ -65,6 +65,8 @@ namespace MediaMakerCalculator.Helpers
 
         public CalculatorResponse MixedCalculation(IEnumerable<MixedCalculationContainer> containers)
         {
+            // Determines which operation to use based on operator
+
             var result = containers.First().Value;
 
             for (int x = 0; x < containers.Count() - 1; x++)
@@ -90,6 +92,8 @@ namespace MediaMakerCalculator.Helpers
 
             return new CalculatorResponse() { Result = result };
         }
+
+        // Calculation lambdas
 
         private Func<float, float, float> AddCalc = (x, y) => x + y;
 

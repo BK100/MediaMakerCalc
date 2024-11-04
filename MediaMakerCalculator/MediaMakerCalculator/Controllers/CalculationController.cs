@@ -12,6 +12,9 @@ namespace MediaMakerCalculator.Controllers
     [Route("[controller]")]
     public class CalculationController : ControllerBase
     {
+
+        // This controller handles calculation operations - can only be accessed using a request with a valid bearer token from the credentials endpoint
+
         private readonly ICalculationHelper _calculationHelper;
         private readonly ILogHelper _logHelper;
         private readonly LoggingDbContext _context;
@@ -28,6 +31,8 @@ namespace MediaMakerCalculator.Controllers
         [Route("/Add")]
         public string Add([FromBody] CalculatorRequest request)
         {
+            // Logs and executes addition requests
+
             _logHelper.LogItem($"Addition request submitted with {request.Values.Count()} values", "Information", _context);
             string jsonResult;
             try
@@ -48,6 +53,8 @@ namespace MediaMakerCalculator.Controllers
         [Route("/Subtract")]
         public string Subtract([FromBody] CalculatorRequest request)
         {
+            // Logs and executes subtraction requests
+
             _logHelper.LogItem($"Subtraction request submitted with {request.Values.Count()} values", "Information", _context);
             string jsonResult;
             try
@@ -68,6 +75,8 @@ namespace MediaMakerCalculator.Controllers
         [Route("/Multiply")]
         public string Multiply([FromBody] CalculatorRequest request)
         {
+            // Logs and executes multiplication requests
+
             _logHelper.LogItem($"Multiplication request submitted with {request.Values.Count()} values", "Information", _context);
             string jsonResult;
             try
@@ -88,6 +97,8 @@ namespace MediaMakerCalculator.Controllers
         [Route("/Divide")]
         public string Divide([FromBody] CalculatorRequest request)
         {
+            // Logs and executes division requests
+
             _logHelper.LogItem($"Division request submitted with {request.Values.Count()} values", "Information", _context);
             string jsonResult;
             try
@@ -108,6 +119,9 @@ namespace MediaMakerCalculator.Controllers
         [Route("/MixedCalculation")]
         public string MixedCalculation([FromBody] CalculatorRequest request)
         {
+            // Logs and executes mixed calculation requests - generates the math logic using the values and operators, can be a mix of any operation
+
+
             _logHelper.LogItem($"Mixed calculation request submitted with {request.MixedCalculationContainers.Count()} values", "Information", _context);
             string jsonResult;
             try

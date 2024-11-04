@@ -5,6 +5,7 @@ using SQLitePCL;
 
 namespace MediaMakerCalculator.Helpers
 {
+    // Logs events to the SQLite database
     public class LogHelper : ILogHelper
     {
         public void LogItem(string logMessage, string logType, LoggingDbContext context)

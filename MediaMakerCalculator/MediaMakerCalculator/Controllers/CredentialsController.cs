@@ -10,6 +10,8 @@ namespace MediaMakerCalculator.Controllers
     [Route("[controller]")]
     public class CredentialsController : ControllerBase
     {
+        // Authenticates the user's credentials and returns a bearer token for use with the credentials controller
+
         private readonly IAuthHelper _authHelper;  
         private readonly IConfiguration _config;
         private readonly ILogHelper _logHelper;

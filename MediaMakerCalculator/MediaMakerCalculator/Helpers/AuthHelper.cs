@@ -9,6 +9,8 @@ namespace MediaMakerCalculator.Helpers
 {
     public class AuthHelper : IAuthHelper
     {
+        // Handles verification of credentials, and returns a valid bearer token
+
         public CredentialsResponse Authenticate(string user, string password, IConfiguration config)
         {
             // Would typically be held in and retrieved from SQL database, AWs parameter store etc
