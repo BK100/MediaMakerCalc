@@ -76,8 +76,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "containers",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[MediaMakerCalculator.Models.MixedCalculationContainer, MediaMakerCalculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Name": "request",
+        "Type": "MediaMakerCalculator.Models.CalculatorRequest",
         "IsRequired": true
       }
     ],

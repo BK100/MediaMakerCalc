@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|solutionrelative:mediamakercalculator\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\models\\calculatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|solutionrelative:mediamakercalculator\\models\\calculatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C21991A-AD54-4885-858F-26ADDE949E86}|MMCTests\\MMCTests.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mmctests\\calculationcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C21991A-AD54-4885-858F-26ADDE949E86}|MMCTests\\MMCTests.csproj|solutionrelative:mmctests\\calculationcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\helpers\\calculationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|solutionrelative:mediamakercalculator\\helpers\\calculationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|solutionrelative:mediamakercalculator\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\models\\calculatorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\models\\interfaces\\icalculationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|solutionrelative:mediamakercalculator\\models\\interfaces\\icalculationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\models\\calculatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|solutionrelative:mediamakercalculator\\models\\calculatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\models\\mixedcalculationcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,11 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CalculatorResponse.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Models\\CalculatorResponse.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Models\\CalculatorResponse.cs",
@@ -118,25 +118,24 @@
               "RelativeToolTip": "MediaMakerCalculator\\Models\\CalculatorResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T02:24:16.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T02:24:16.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "CalculatorRequest.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Models\\CalculatorRequest.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Models\\CalculatorRequest.cs",
               "ToolTip": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Models\\CalculatorRequest.cs",
               "RelativeToolTip": "MediaMakerCalculator\\Models\\CalculatorRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T02:24:05.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthHelper.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Helpers\\AuthHelper.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Helpers\\AuthHelper.cs",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "MediaMakerCalculator\\Helpers\\AuthHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T19:23:52.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T19:23:52.957Z"
             },
             {
               "$type": "Document",
@@ -157,12 +155,11 @@
               "RelativeToolTip": "MediaMakerCalculator\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:32:23.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T13:32:23.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CalculationHelper.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Helpers\\CalculationHelper.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Helpers\\CalculationHelper.cs",
@@ -170,25 +167,24 @@
               "RelativeToolTip": "MediaMakerCalculator\\Helpers\\CalculationHelper.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAwwD4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:51:25.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T12:51:25.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CalculationController.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Controllers\\CalculationController.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Controllers\\CalculationController.cs",
               "ToolTip": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Controllers\\CalculationController.cs",
               "RelativeToolTip": "MediaMakerCalculator\\Controllers\\CalculationController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwBwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwHIAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T12:40:56.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IAuthHelper.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Models\\Interfaces\\IAuthHelper.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Models\\Interfaces\\IAuthHelper.cs",
@@ -196,8 +192,7 @@
               "RelativeToolTip": "MediaMakerCalculator\\Models\\Interfaces\\IAuthHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T19:23:40.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T19:23:40.999Z"
             },
             {
               "$type": "Document",
@@ -209,12 +204,11 @@
               "RelativeToolTip": "MediaMakerCalculator\\Models\\MixedCalculationContainer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:17:50.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T14:17:50.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CredentialsController.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Controllers\\CredentialsController.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Controllers\\CredentialsController.cs",
@@ -222,12 +216,11 @@
               "RelativeToolTip": "MediaMakerCalculator\\Controllers\\CredentialsController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAADgvxkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T20:04:45.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T20:04:45.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ICalculationHelper.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Models\\Interfaces\\ICalculationHelper.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Models\\Interfaces\\ICalculationHelper.cs",
@@ -235,12 +228,11 @@
               "RelativeToolTip": "MediaMakerCalculator\\Models\\Interfaces\\ICalculationHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:42:42.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T12:42:42.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "20241103235519_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Data\\20241103235519_Initial.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Data\\20241103235519_Initial.cs",
@@ -248,12 +240,11 @@
               "RelativeToolTip": "MediaMakerCalculator\\Data\\20241103235519_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T23:55:25.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T23:55:25.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CalculationControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MMCTests\\CalculationControllerTests.cs",
               "RelativeDocumentMoniker": "MMCTests\\CalculationControllerTests.cs",
@@ -266,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CredentialsResponse.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Models\\CredentialsResponse.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Models\\CredentialsResponse.cs",
@@ -274,8 +265,7 @@
               "RelativeToolTip": "MediaMakerCalculator\\Models\\CredentialsResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T02:35:41.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T02:35:41.845Z"
             },
             {
               "$type": "Document",
@@ -291,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CredentialsRequest.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Models\\CredentialsRequest.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Models\\CredentialsRequest.cs",
@@ -299,8 +289,7 @@
               "RelativeToolTip": "MediaMakerCalculator\\Models\\CredentialsRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T20:08:00.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T20:08:00.124Z"
             },
             {
               "$type": "Document",

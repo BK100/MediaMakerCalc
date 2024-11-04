@@ -106,13 +106,13 @@ namespace MediaMakerCalculator.Controllers
         [Authorize]
         [HttpPost]
         [Route("/MixedCalculation")]
-        public string MixedCalculation([FromBody] IEnumerable<MixedCalculationContainer> containers)
+        public string MixedCalculation([FromBody] CalculatorRequest request)
         {
-            _logHelper.LogItem($"Mixed calculation request submitted with {containers.Count()} values", "Information", _context);
+            _logHelper.LogItem($"Mixed calculation request submitted with {request.MixedCalculationContainers.Count()} values", "Information", _context);
             string jsonResult;
             try
             {
-                jsonResult = JsonSerializer.Serialize(_calculationHelper.MixedCalculation(containers));
+                jsonResult = JsonSerializer.Serialize(_calculationHelper.MixedCalculation(request.MixedCalculationContainers));
             }
             catch (Exception ex)
             {
