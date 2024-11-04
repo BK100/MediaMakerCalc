@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DKn2RGXP7HM=",
+  "dgSpecHash": "/f3qER1lEgc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj",
+  "projectFilePath": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Floof\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Floof\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.10\\microsoft.aspnetcore.authentication.jwtbearer.8.0.10.nupkg.sha512",

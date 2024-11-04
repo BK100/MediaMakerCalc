@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaMakerCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17b6b6a75a421d14996c674e8b0a4ece62f74c0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaMakerCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaMakerCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

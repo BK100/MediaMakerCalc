@@ -2847,11 +2847,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MMCTests\\MMCTests.csproj",
+      "projectUniqueName": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MMCTests\\MMCTests.csproj",
       "projectName": "MMCTests",
-      "projectPath": "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MMCTests\\MMCTests.csproj",
+      "projectPath": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MMCTests\\MMCTests.csproj",
       "packagesPath": "C:\\Users\\Floof\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MMCTests\\obj\\",
+      "outputPath": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MMCTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2873,8 +2873,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj": {
-              "projectPath": "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj"
+            "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj": {
+              "projectPath": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7WJ5sj0kT4Q=",
+  "dgSpecHash": "rFqcUYb/9Tc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MMCTests\\MMCTests.csproj",
+  "projectFilePath": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MMCTests\\MMCTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Floof\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Floof\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

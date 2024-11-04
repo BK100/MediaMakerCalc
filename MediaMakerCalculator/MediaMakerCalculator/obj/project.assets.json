@@ -3225,11 +3225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj",
       "projectName": "MediaMakerCalculator",
-      "projectPath": "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj",
+      "projectPath": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\MediaMakerCalculator.csproj",
       "packagesPath": "C:\\Users\\Floof\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Floof\\source\\repos\\MediaMakerCalculator\\MediaMakerCalculator\\obj\\",
+      "outputPath": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
