@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaMakerCalculator", "MediaMakerCalculator\MediaMakerCalculator.csproj", "{15EFDE6B-4B33-48A5-8B54-044D23375697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMCTests", "MMCTests\MMCTests.csproj", "{2C21991A-AD54-4885-858F-26ADDE949E86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15EFDE6B-4B33-48A5-8B54-044D23375697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EFDE6B-4B33-48A5-8B54-044D23375697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EFDE6B-4B33-48A5-8B54-044D23375697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EFDE6B-4B33-48A5-8B54-044D23375697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C21991A-AD54-4885-858F-26ADDE949E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C21991A-AD54-4885-858F-26ADDE949E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C21991A-AD54-4885-858F-26ADDE949E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C21991A-AD54-4885-858F-26ADDE949E86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDDF5E14-0B5F-4406-B92C-0645E602107C}
+	EndGlobalSection
+EndGlobal

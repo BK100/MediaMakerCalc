@@ -1,0 +1,148 @@
+[
+  {
+    "ContainingType": "MediaMakerCalculator.Controllers.CalculationController",
+    "Method": "Add",
+    "RelativePath": "Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "values",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MediaMakerCalculator.Controllers.CredentialsController",
+    "Method": "Authenticate",
+    "RelativePath": "Credentials",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credentials",
+        "Type": "MediaMakerCalculator.Models.CredentialsContainer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MediaMakerCalculator.Controllers.CalculationController",
+    "Method": "Divide",
+    "RelativePath": "Divide",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "values",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MediaMakerCalculator.Controllers.CalculationController",
+    "Method": "MixedCalculation",
+    "RelativePath": "MixedCalculation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "containers",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MediaMakerCalculator.Models.MixedCalculationContainer, MediaMakerCalculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MediaMakerCalculator.Controllers.CalculationController",
+    "Method": "Multiply",
+    "RelativePath": "Multiply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "values",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MediaMakerCalculator.Controllers.CalculationController",
+    "Method": "Subtract",
+    "RelativePath": "Subtract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "values",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

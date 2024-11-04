@@ -1,0 +1,6 @@
+@MediaMakerCalculator_HostAddress = http://localhost:5226
+
+GET {{MediaMakerCalculator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
