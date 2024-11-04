@@ -31,11 +31,14 @@ namespace MMCTests
         [TestCase(5, -10, -5)]
         public void AddNumbers_Success(float value1, float value2, float returnResult)
         {
-            var result = _controller.Add(new List<float>()
+            var result = _controller.Add(new CalculatorRequest()
+            {
+                Values = new List<float>()
             {
                 value1, value2
+            }
             });
-            Assert.That(result == returnResult.ToString());
+            Assert.That(result == "{\"Result\":" + returnResult.ToString() + "}");
         }
 
         [Test]
@@ -45,11 +48,14 @@ namespace MMCTests
         [TestCase(5, -10, 15)]
         public void SubtractNumbers_Success(float value1, float value2, float returnResult)
         {
-            var result = _controller.Subtract(new List<float>()
+            var result = _controller.Subtract(new CalculatorRequest()
+            {
+                Values = new List<float>()
             {
                 value1, value2
+            }
             });
-            Assert.That(result == returnResult.ToString());
+            Assert.That(result == "{\"Result\":" + returnResult.ToString() + "}");
         }
 
         [Test]
@@ -59,11 +65,14 @@ namespace MMCTests
         [TestCase(5, -10, -50)]
         public void Multiply_Success(float value1, float value2, float returnResult)
         {
-            var result = _controller.Multiply(new List<float>()
+            var result = _controller.Multiply(new CalculatorRequest()
+            {
+                Values = new List<float>()
             {
                 value1, value2
+            }
             });
-            Assert.That(result == returnResult.ToString());
+            Assert.That(result == "{\"Result\":" + returnResult.ToString() + "}");
         }
 
         [Test]
@@ -73,11 +82,14 @@ namespace MMCTests
         [TestCase(50, 10, 5)]
         public void Divide_Success(float value1, float value2, float returnResult)
         {
-            var result = _controller.Divide(new List<float>()
+            var result = _controller.Divide(new CalculatorRequest()
+            {
+                Values = new List<float>()
             {
                 value1, value2
+            }
             });
-            Assert.That(result == returnResult.ToString());
+            Assert.That(result == "{\"Result\":" + returnResult.ToString() + "}");
         }
 
         [Test]
@@ -104,7 +116,7 @@ namespace MMCTests
             };
 
             var result = _controller.MixedCalculation(request);
-            Assert.That(result == returnResult.ToString());
+            Assert.That(result == "{\"Result\":" + returnResult.ToString() + "}");
         }
 
         [Test]

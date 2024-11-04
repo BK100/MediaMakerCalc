@@ -2,6 +2,6 @@
 {
     public interface IAuthHelper
     {
-        public string? Authenticate(string user, string password, IConfiguration config);
+        public CredentialsResponse Authenticate(string user, string password, IConfiguration config);
     }
 }

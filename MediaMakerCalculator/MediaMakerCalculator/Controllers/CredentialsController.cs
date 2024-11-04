@@ -25,10 +25,10 @@ namespace MediaMakerCalculator.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Authenticate([FromBody] CredentialsContainer credentials)
+        public IActionResult Authenticate([FromBody] CredentialsRequest credentials)
         {
             var token = _authHelper.Authenticate(credentials.Username, credentials.Password, _config);
-            if(string.IsNullOrEmpty(token))
+            if(string.IsNullOrEmpty(token.Token))
             {
                 _logHelper.LogItem("Unable to authenticate credentials", "Error", _context);
                 return Unauthorized();

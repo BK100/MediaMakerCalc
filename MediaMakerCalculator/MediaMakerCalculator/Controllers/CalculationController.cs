@@ -26,13 +26,13 @@ namespace MediaMakerCalculator.Controllers
         [Authorize]
         [HttpPost]
         [Route("/Add")]
-        public string Add([FromBody] IEnumerable<float> values)
+        public string Add([FromBody] CalculatorRequest request)
         {
-            _logHelper.LogItem($"Addition request submitted with {values.Count()} values", "Information", _context);
+            _logHelper.LogItem($"Addition request submitted with {request.Values.Count()} values", "Information", _context);
             string jsonResult;
             try
             {
-                jsonResult = JsonSerializer.Serialize(_calculationHelper.Add(values));
+                jsonResult = JsonSerializer.Serialize(_calculationHelper.Add(request.Values));
             }
             catch (Exception ex)
             {
@@ -46,13 +46,13 @@ namespace MediaMakerCalculator.Controllers
         [Authorize]
         [HttpPost]
         [Route("/Subtract")]
-        public string Subtract([FromBody] IEnumerable<float> values)
+        public string Subtract([FromBody] CalculatorRequest request)
         {
-            _logHelper.LogItem($"Subtraction request submitted with {values.Count()} values", "Information", _context);
+            _logHelper.LogItem($"Subtraction request submitted with {request.Values.Count()} values", "Information", _context);
             string jsonResult;
             try
             {
-                jsonResult = JsonSerializer.Serialize(_calculationHelper.Subtract(values));
+                jsonResult = JsonSerializer.Serialize(_calculationHelper.Subtract(request.Values));
             }
             catch (Exception ex)
             {
@@ -66,13 +66,13 @@ namespace MediaMakerCalculator.Controllers
         [Authorize]
         [HttpPost]
         [Route("/Multiply")]
-        public string Multiply([FromBody] IEnumerable<float> values)
+        public string Multiply([FromBody] CalculatorRequest request)
         {
-            _logHelper.LogItem($"Multiplication request submitted with {values.Count()} values", "Information", _context);
+            _logHelper.LogItem($"Multiplication request submitted with {request.Values.Count()} values", "Information", _context);
             string jsonResult;
             try
             {
-                jsonResult = JsonSerializer.Serialize(_calculationHelper.Multiply(values));
+                jsonResult = JsonSerializer.Serialize(_calculationHelper.Multiply(request.Values));
             }
             catch (Exception ex)
             {
@@ -86,13 +86,13 @@ namespace MediaMakerCalculator.Controllers
         [Authorize]
         [HttpPost]
         [Route("/Divide")]
-        public string Divide([FromBody] IEnumerable<float> values)
+        public string Divide([FromBody] CalculatorRequest request)
         {
-            _logHelper.LogItem($"Division request submitted with {values.Count()} values", "Information", _context);
+            _logHelper.LogItem($"Division request submitted with {request.Values.Count()} values", "Information", _context);
             string jsonResult;
             try
             {
-                jsonResult = JsonSerializer.Serialize(_calculationHelper.Divide(values));
+                jsonResult = JsonSerializer.Serialize(_calculationHelper.Divide(request.Values));
             }
             catch (Exception ex)
             {

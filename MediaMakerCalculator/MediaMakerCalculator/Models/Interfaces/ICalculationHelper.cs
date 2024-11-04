@@ -4,10 +4,10 @@ namespace MediaMakerCalculator.Models.Interfaces
 {
     public interface ICalculationHelper
     {
-        public float Add(IEnumerable<float> valuesToCalculate);
-        public float Subtract(IEnumerable<float> valuesToCalculate);
-        public float Multiply(IEnumerable<float> valuesToCalculate);
-        public float Divide(IEnumerable<float> valuesToCalculate);
-        public float MixedCalculation(IEnumerable<MixedCalculationContainer> containers);
+        public CalculatorResponse Add(IEnumerable<float> valuesToCalculate);
+        public CalculatorResponse Subtract(IEnumerable<float> valuesToCalculate);
+        public CalculatorResponse Multiply(IEnumerable<float> valuesToCalculate);
+        public CalculatorResponse Divide(IEnumerable<float> valuesToCalculate);
+        public CalculatorResponse MixedCalculation(IEnumerable<MixedCalculationContainer> containers);
     }
 }

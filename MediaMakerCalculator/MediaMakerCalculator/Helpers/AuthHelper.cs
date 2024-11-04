@@ -1,4 +1,5 @@
-﻿using MediaMakerCalculator.Models.Interfaces;
+﻿using MediaMakerCalculator.Models;
+using MediaMakerCalculator.Models.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -8,7 +9,7 @@ namespace MediaMakerCalculator.Helpers
 {
     public class AuthHelper : IAuthHelper
     {
-        public string? Authenticate(string user, string password, IConfiguration config)
+        public CredentialsResponse Authenticate(string user, string password, IConfiguration config)
         {
             // Would typically be held in and retrieved from SQL database, AWs parameter store etc
             if (user != "testUser" || password != "testPassword") return null;
@@ -30,7 +31,7 @@ namespace MediaMakerCalculator.Helpers
             var token = handler.CreateToken(descriptor);
             var writtenToken = handler.WriteToken(token);
 
-            return writtenToken;
+            return new CredentialsResponse() { Token = writtenToken };
         }
     }
 }

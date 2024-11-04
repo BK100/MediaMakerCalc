@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "values",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "request",
+        "Type": "MediaMakerCalculator.Models.CalculatorRequest",
         "IsRequired": true
       }
     ],
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "credentials",
-        "Type": "MediaMakerCalculator.Models.CredentialsContainer",
+        "Type": "MediaMakerCalculator.Models.CredentialsRequest",
         "IsRequired": true
       }
     ],
@@ -50,8 +50,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "values",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "request",
+        "Type": "MediaMakerCalculator.Models.CalculatorRequest",
         "IsRequired": true
       }
     ],
@@ -102,8 +102,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "values",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "request",
+        "Type": "MediaMakerCalculator.Models.CalculatorRequest",
         "IsRequired": true
       }
     ],
@@ -128,8 +128,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "values",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "request",
+        "Type": "MediaMakerCalculator.Models.CalculatorRequest",
         "IsRequired": true
       }
     ],

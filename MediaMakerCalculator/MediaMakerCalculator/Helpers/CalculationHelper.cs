@@ -7,7 +7,7 @@ namespace MediaMakerCalculator.Helpers
     public class CalculationHelper : ICalculationHelper
     {
 
-        public float Add(IEnumerable<float> valuesToCalculate)
+        public CalculatorResponse Add(IEnumerable<float> valuesToCalculate)
         {
             var valueList = valuesToCalculate.ToList();
             var result = valueList.First();
@@ -18,10 +18,10 @@ namespace MediaMakerCalculator.Helpers
                 result = AddCalc(result, value);
             }
 
-            return result;
+            return new CalculatorResponse() { Result = result };
         }
 
-        public float Subtract(IEnumerable<float> valuesToCalculate)
+        public CalculatorResponse Subtract(IEnumerable<float> valuesToCalculate)
         {
             var valueList = valuesToCalculate.ToList();
             var result = valueList.First();
@@ -32,10 +32,10 @@ namespace MediaMakerCalculator.Helpers
                 result = SubtractCalc(result, value);
             }
 
-            return result;
+            return new CalculatorResponse() { Result = result };
         }
 
-        public float Multiply(IEnumerable<float> valuesToCalculate)
+        public CalculatorResponse Multiply(IEnumerable<float> valuesToCalculate)
         {
             var valueList = valuesToCalculate.ToList();
             var result = valueList.First();
@@ -46,10 +46,10 @@ namespace MediaMakerCalculator.Helpers
                 result = MultiplyCalc(result, value);
             }
 
-            return result;
+            return new CalculatorResponse() { Result = result };
         }
 
-        public float Divide(IEnumerable<float> valuesToCalculate)
+        public CalculatorResponse Divide(IEnumerable<float> valuesToCalculate)
         {
             var valueList = valuesToCalculate.ToList();
             var result = valueList.First();
@@ -60,10 +60,10 @@ namespace MediaMakerCalculator.Helpers
                 result = DivideCalc(result, value);
             }
 
-            return result;
+            return new CalculatorResponse() { Result = result };
         }
 
-        public float MixedCalculation(IEnumerable<MixedCalculationContainer> containers)
+        public CalculatorResponse MixedCalculation(IEnumerable<MixedCalculationContainer> containers)
         {
             var result = containers.First().Value;
 
@@ -88,7 +88,7 @@ namespace MediaMakerCalculator.Helpers
                 }
             }
 
-            return result;
+            return new CalculatorResponse() { Result = result };
         }
 
         private Func<float, float, float> AddCalc = (x, y) => x + y;
