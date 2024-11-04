@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|solutionrelative:mediamakercalculator\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\models\\calculatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|solutionrelative:mediamakercalculator\\models\\calculatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C21991A-AD54-4885-858F-26ADDE949E86}|MMCTests\\MMCTests.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mmctests\\calculationcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C21991A-AD54-4885-858F-26ADDE949E86}|MMCTests\\MMCTests.csproj|solutionrelative:mmctests\\calculationcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\models\\calculatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|solutionrelative:mediamakercalculator\\models\\calculatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15EFDE6B-4B33-48A5-8B54-044D23375697}|MediaMakerCalculator\\MediaMakerCalculator.csproj|c:\\users\\floof\\desktop\\game\\repo\\mediamakercalc\\mediamakercalculator\\mediamakercalculator\\helpers\\calculationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CalculatorRequest.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Models\\CalculatorRequest.cs",
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Models\\CalculatorRequest.cs",
@@ -130,8 +130,7 @@
               "RelativeToolTip": "MediaMakerCalculator\\Models\\CalculatorRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T02:24:05.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T02:24:05.594Z"
             },
             {
               "$type": "Document",
@@ -177,7 +176,7 @@
               "RelativeDocumentMoniker": "MediaMakerCalculator\\Controllers\\CalculationController.cs",
               "ToolTip": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MediaMakerCalculator\\Controllers\\CalculationController.cs",
               "RelativeToolTip": "MediaMakerCalculator\\Controllers\\CalculationController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAgwHIAAAB8AAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAMwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T12:40:56.401Z",
               "EditorCaption": ""
@@ -244,13 +243,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CalculationControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MMCTests\\CalculationControllerTests.cs",
               "RelativeDocumentMoniker": "MMCTests\\CalculationControllerTests.cs",
               "ToolTip": "C:\\Users\\Floof\\Desktop\\Game\\Repo\\MediaMakerCalc\\MediaMakerCalculator\\MMCTests\\CalculationControllerTests.cs",
               "RelativeToolTip": "MMCTests\\CalculationControllerTests.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAIwHYAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAhwIYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T00:41:32.773Z",
               "EditorCaption": ""

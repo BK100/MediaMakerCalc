@@ -5,6 +5,7 @@ using MediaMakerCalculator.Models;
 using MediaMakerCalculator.Models.Enums;
 using Microsoft.EntityFrameworkCore;
 using Moq;
+using Newtonsoft.Json.Linq;
 
 namespace MMCTests
 {
@@ -97,7 +98,8 @@ namespace MMCTests
         [TestCase(1000, 2000, 1000, 2000)]
         public void MixedCalc_Success(float value1, float value2, float value3, float returnResult)
         {
-            var request = new List<MixedCalculationContainer>()
+            var request = new CalculatorRequest() {
+                MixedCalculationContainers = new List<MixedCalculationContainer>()
             {
                 new MixedCalculationContainer()
                 {
@@ -113,6 +115,7 @@ namespace MMCTests
                 {
                     Value = value3
                 }
+            }
             };
 
             var result = _controller.MixedCalculation(request);
@@ -122,16 +125,20 @@ namespace MMCTests
         [Test]
         public void MixedCalc_Fail()
         {
-            var request = new List<MixedCalculationContainer>()
+
+            var request = new CalculatorRequest()
+            {
+                MixedCalculationContainers = new List<MixedCalculationContainer>()
             {
                 new MixedCalculationContainer()
                 {
-                    Value = 50,
+                    Value = 50
                 },
                 new MixedCalculationContainer()
                 {
                     Value = 50
                 }
+            }
             };
             Assert.Throws<Exception>(() => _controller.MixedCalculation(request));
         }
