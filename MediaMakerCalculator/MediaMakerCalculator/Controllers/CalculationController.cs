@@ -32,8 +32,15 @@ namespace MediaMakerCalculator.Controllers
         public string Add([FromBody] CalculatorRequest request)
         {
             // Logs and executes addition requests
-
-            _logHelper.LogItem($"Addition request submitted with {request.Values.Count()} values", "Information", _context);
+            if (request.Values != null && request.Values.Count() > 0)
+            {
+                _logHelper.LogItem($"Addition request submitted with {request.Values.Count()} values", "Information", _context);
+            }
+            else
+            {
+                _logHelper.LogItem($"Addition request submitted with null or empty values array", "Error", _context);
+                throw new Exception("MMC008: Empty or null request data");
+            }
             string jsonResult;
             try
             {
@@ -55,7 +62,16 @@ namespace MediaMakerCalculator.Controllers
         {
             // Logs and executes subtraction requests
 
-            _logHelper.LogItem($"Subtraction request submitted with {request.Values.Count()} values", "Information", _context);
+            if (request.Values != null && request.Values.Count() > 0)
+            {
+                _logHelper.LogItem($"Subtraction request submitted with {request.Values.Count()} values", "Information", _context);
+            }
+            else
+            {
+                _logHelper.LogItem($"Subtraction request submitted with null or empty values array", "Error", _context);
+                throw new Exception("MMC008: Empty or null request data");
+            }
+
             string jsonResult;
             try
             {
@@ -77,7 +93,16 @@ namespace MediaMakerCalculator.Controllers
         {
             // Logs and executes multiplication requests
 
-            _logHelper.LogItem($"Multiplication request submitted with {request.Values.Count()} values", "Information", _context);
+            if (request.Values != null && request.Values.Count() > 0)
+            {
+                _logHelper.LogItem($"Multiplication request submitted with {request.Values.Count()} values", "Information", _context);
+            }
+            else
+            {
+                _logHelper.LogItem($"Multiplication request submitted with null or empty values array", "Error", _context);
+                throw new Exception("MMC008: Empty or null request data");
+            }
+
             string jsonResult;
             try
             {
@@ -99,7 +124,16 @@ namespace MediaMakerCalculator.Controllers
         {
             // Logs and executes division requests
 
-            _logHelper.LogItem($"Division request submitted with {request.Values.Count()} values", "Information", _context);
+            if (request.Values != null && request.Values.Count() > 0)
+            {
+                _logHelper.LogItem($"Division request submitted with {request.Values.Count()} values", "Information", _context);
+            }
+            else
+            {
+                _logHelper.LogItem($"Division request submitted with null or empty values array", "Error", _context);
+                throw new Exception("MMC008: Empty or null request data");
+            }
+
             string jsonResult;
             try
             {
@@ -121,8 +155,16 @@ namespace MediaMakerCalculator.Controllers
         {
             // Logs and executes mixed calculation requests - generates the math logic using the values and operators, can be a mix of any operation
 
+            if (request.MixedCalculationContainers != null && request.MixedCalculationContainers.Count() > 0)
+            {
+                _logHelper.LogItem($"Mixed calculation request submitted with {request.MixedCalculationContainers.Count()} values", "Information", _context);
+            }
+            else
+            {
+                _logHelper.LogItem($"Mixed calculation request submitted with null or empty MixedCalculationContainers array", "Error", _context);
+                throw new Exception("MMC008: Empty or null request data");
+            }
 
-            _logHelper.LogItem($"Mixed calculation request submitted with {request.MixedCalculationContainers.Count()} values", "Information", _context);
             string jsonResult;
             try
             {
