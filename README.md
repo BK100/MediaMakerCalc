@@ -2,6 +2,8 @@
 
 This project was created to satisfy the requirements of the Mediamaker technical test. It contains an auth integrated Web API that allows the user to run calculations based on requests sent to the endpoints. An example of the authentication call, as well as requests for each of the endpoints, can be found in the top-level Postman collection.
 
+JWT Bearer token authentication was selected as the auth method of choice over API Key authentication due to it's increased security and flexibility.
+
 # Using the calculator
 
 First, users will need to supply credentials to the authentication endpoint in order to recieve a bearer token. The credentials required are "testUser" and "testPassword". The bearer token can then be used to authenticate the user and access the calculation endpoints in the calculation controller. These endpoints include -
